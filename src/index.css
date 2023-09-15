@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: "CloisterBlack";
+  src: local("CloisterBlack"),
+   url("./fonts/CloisterBlack.ttf") format("truetype");
+  font-weight: normal;
+ }
+ @font-face {
+  font-family: "OldLondon";
+  src: local("OldLondon"),
+   url("./fonts/OldLondon.ttf") format("truetype");
+  font-weight: normal;
+ }

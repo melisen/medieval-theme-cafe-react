@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/CloisterBlack.ttf';
 
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
@@ -15,8 +16,9 @@ const medievalTheme = createTheme({
       main: '#955f31',
     },
     chocolate:{
+      light:'#846554',
       main: '#46230f',
-      dark: '#231c18'
+      dark: '#30241c'
     },
     autumnLeaves:{
       main:'#955f31'
